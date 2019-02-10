@@ -4,6 +4,8 @@
   "description": "Hapi.js Application Skeleton",
   "main": "app.js",
   "scripts": {
+    "start": "node ./node_modules/pm2/bin/pm2 start process.json",
+    "poststart": "node ./node_modules/pm2/bin/pm2 logs",
     "start": "pm2 start app.js -i max",
     "test": "lab -C -c -m 2000 -l",
     "debug": "node --inspect app.js",
