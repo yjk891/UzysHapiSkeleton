@@ -63,7 +63,7 @@ process.on('SIGINT', async () => {
     } catch(e) {
         console.error(e);
     }
-    console.log('Colloseo Hapi server stopped');
+    console.log('Hapi server stopped');
     process.exit();
 
 

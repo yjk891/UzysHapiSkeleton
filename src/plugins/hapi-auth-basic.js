@@ -5,8 +5,8 @@
 const Bcrypt = require('bcryptjs');
 
 const Adminusers = {
-    username: 'uzysjung',
-    password: '$2a$10$tWLZxWZ7Y7qbu5nPjUkQBOzfsHkxzqLU4yxUgzt4qVLk7pYVEPHRG'   // 'secret'
+    username: 'test',
+    password: '$2a$10$2Qph/NISzbGMnIzlh7EuyOYwE7svmZx0vuSszM8ZBDbUUNFU6N7Qe'   // 'secret'
 };
 
 const validate = async (request, username, password, h) => {

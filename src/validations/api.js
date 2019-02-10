@@ -3,7 +3,8 @@
  */
 
 'use strict';
-const Joi = require('joi');
+const Joi                  = require('joi');
+const apiController        = require('../controllers/api');
 
 module.exports = {
 
@@ -13,6 +14,7 @@ module.exports = {
         },
         params: {
             id: Joi.number().integer().description('API ID')
-        }
+        },
+        failAction : apiController.listErr
     }
 };

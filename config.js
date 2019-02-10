@@ -16,7 +16,7 @@ class Config {
             host     : 'production.io',
             user     : 'root',
             password : 'root',
-            database : 'UzysHapiSkeleton_production'
+            database : 'production_database'
         };
         if (this.type === 'development') {
 
@@ -24,7 +24,7 @@ class Config {
                 host: 'localhost',
                 user: 'root',
                 password: 'root',
-                database: 'UzysHapiSkeleton'
+                database: 'test'
             };
         }
         return ret;

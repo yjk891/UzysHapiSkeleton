@@ -49,7 +49,7 @@ module.exports = function () {
             config : {
                 auth: 'simple',
                 description: 'authentication page',
-                notes: 'auth view page id/pass uzysjung/uzysjung',
+                notes: 'auth view page id/pass test/test',
                 tags :['auth'],
                 handler: ApiController.auth
 

@@ -1,12 +1,8 @@
-/**
- * Created by 1002125 on 2016. 7. 20..
- */
-
 'use strict';
 const DBConfig  = require('../../config');
 const _         = require('lodash');
 //const Co        = require('co');
-class UzysDB {
+class MysqlRepository {
 
     constructor(tableName,option) {
 
@@ -146,9 +142,9 @@ class UzysDB {
 
 };
 
-module.exports = exports = UzysDB;
+module.exports = exports = MysqlRepository;
 //
-// class tmpDB extends UzysDB {
+// class tmpDB extends MysqlRepository {
 //     constructor(tableName) {
 //         super(tableName)
 //

@@ -16,12 +16,18 @@ exports = module.exports = {
     },
     root: function (request,h) {
 
-        return h.view('index', { title: 'UzysHapiSkeleton' });
+        return h.view('index', { title: 'HapiSkeleton' });
     },
     auth: function (request,h) {
 
-        return h.view('authentication', { title: 'UzysHapiSkeleton Basic authentication' });
-    }
+        return h.view('authentication', { title: 'HapiSkeleton Basic authentication' });
+    },
+    listErr: async (request, h, error) => {
+        const reqURL = request.raw.req.url;
+        console.error(`ROUTE: list Validation Error - reqURL : ${reqURL}, ${error}`);
+        const ret = await this.list(request, h);
+        return h.response(ret).takeover();
+    } 
 };
 
 //class ControllerAPI {

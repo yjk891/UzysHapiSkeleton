@@ -5,12 +5,12 @@
 
 'use strict';
 
-const UzysDB    = require('../helpers/UzysDB');
+const MysqlRepository    = require('../helpers/MysqlRepository');
 const Co        = require('co');
 const _         = require('lodash');
 
 
-class APITable extends UzysDB {
+class APITable extends MysqlRepository {
 
     constructor(tableName) {
 

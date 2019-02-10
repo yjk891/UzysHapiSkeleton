@@ -1,0 +1,8 @@
+.idea
+*.swp
+*.log
+!.travis.yml
+node_modules/
+
+# for mac
+.DS_Store

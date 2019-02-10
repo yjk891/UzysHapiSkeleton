@@ -1,6 +1,7 @@
-# UzysHapiSkeleton
+# HapiSkeleton
 [![Build Status](https://travis-ci.org/uzysjung/UzysHapiSkeleton.svg?branch=master)](https://travis-ci.org/uzysjung/UzysHapiSkeleton)
 Hapi.js MVC pattern Template
+forked from UzysHapiSkeleton
 
 ## Introduction
 **UzysHapiSkeleton** is a MVC pattern Skeleton
@@ -44,4 +45,4 @@ Hapi.js MVC pattern Template
 - GOOD_CONSOLE = 'log,response,request,error'
 
 ## Authentication
-- initial ID / Password : uzysjung/uzysjung
+- initial ID / Password : test/test
